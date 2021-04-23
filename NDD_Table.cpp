@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <conio.h>
 using namespace std;
 int main(){
 	int n;
@@ -36,6 +37,6 @@ int main(){
 			else cout<<arr[i][j]<<'\t';
 		}cout<<endl;
 	}
+	getch();
 	return 0;
 }
-
