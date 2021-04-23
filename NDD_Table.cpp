@@ -22,8 +22,7 @@ int main(){
 	}cout<<endl;
 	
 	//Calculating orders
-	for(int a=0;a<n-1;a++)
-	{
+	for(int a=0;a<n-1;a++){
 		for(int i=0;i<(n-1)-a;i++)
 		arr[i][a+2]=(arr[i+1][a+1]-arr[i][a+1])/(arr[i+(a+1)][0]-arr[i][0]);	
 	}
